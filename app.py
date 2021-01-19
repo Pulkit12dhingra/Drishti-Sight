@@ -118,11 +118,19 @@ def gen():
 					H_pos = "mid "
 				else:
 					H_pos = "bottom "
-				list1.append(H_pos + W_pos + LABELS[classIDs[i]])
+				print(x,y,w,h)
+				print("area is = ",((x+w)*(y+h)))
+				area=((x+w)*(y+h))
+				if area > 200000:
+					distance_measure="really close to you"
+				elif area<200000 and area>100000:
+					distance_measure="close to you"
+				else:
+					distance_measure="far from you"
+				
 
+			list1.append("there is a "+ LABELS[classIDs[i]] + " in "+ H_pos + W_pos  + distance_measure)
 			description = ', '.join(list1)
-
-			
 			
 			if description!=mydict["earlier"]:
 				myobj = gTTS(text=description, lang="en", slow=False)
