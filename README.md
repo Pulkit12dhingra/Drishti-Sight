@@ -1,5 +1,3 @@
 # object-detection-with-feedback
 
-download yolo weights from https://drive.google.com/drive/folders/1ZGzGZKKFPY14mnx0yOkr9f7tzTfUCUsx?usp=sharing
-
-p-51
+The repo deals with object detection using YOLO model and giving a suitable feedback. The model here used is YOLO model using OpenCV and the result of detection is in full words with exact location of the object in the frame. The model uses GTTS modeule to convert text to speech.
