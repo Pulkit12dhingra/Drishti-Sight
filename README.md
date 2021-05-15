@@ -1,4 +1,6 @@
-# object-detection-with-feedback
+# Object-detection-with-feedback
+It is a project to elevate people with impaired eyesight. 
+The project deals with object detection technology to detect obstacles in the way and give voice feedback. This project is developed to help people with impaired eyesight. It alerts the user about the upcoming obstacle, its distance from the user, and its location. This will help the user to move safely.
+The project is deployed over a web API using flask as a backend.
 
-The repo deals with object detection using YOLO model and giving a suitable feedback. The model here used is YOLO model using OpenCV and the result of detection is in full words with exact location of the object in the frame. The model uses GTTS modeule to convert text to speech.
 ![video_description](/gif1.gif)
