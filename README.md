@@ -24,7 +24,7 @@ This process works well on frames having single objects, but it may cause an err
 
 The YOLO algorithm will divide the frame or image into a grid format, and for each grid cell, we can get an output vector associated with the object in that cell. This enables the algorithm to detect multiple objects in our frame.
 
-![grid_object_YOLO_object_detection](/images/img1.jpg)
+![grid_object_YOLO_object_detection](/images/img2.jpg)
 
 As we get vectors of grids for an object, we may get multiple bounding boxes with their respective probability. We cannot simply use the max probability one as there may be more than one object of a particular class in the frame. Thus, we use the concept of Intersection Over Union (IOU), which is to take the intersection area and union area of all the available boxes. 
 IOU= intersection area / union area
@@ -59,3 +59,5 @@ To prevent the same audio to play multiple times, we store the current sentence 
 
 # Deployment
 The project is deployed over the Web using Flask Rest API. We make use of HTML and CSS to built the front end and Flask API to get our backend ready for the project. 
+
+<a href="https://github.com/Pulkit12dhingra/Object-Detection-with-Feedback">Click here to go on top</a>
