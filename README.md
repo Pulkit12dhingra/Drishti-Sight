@@ -58,4 +58,4 @@ Finally, we can convert all this info to a sentence using string concatenation a
 To prevent the same audio to play multiple times, we store the current sentence and compare it with the previous sentence. If there is any change, then we'll play the new audio of the current sentence. This enables us to prevent the continuous playing of our audio file.
 
 # Deployment
-The project is deployed over the Web using Flask API. We make use of HTML and CSS to built the front end and Flask API to get our backend ready for the project. 
+The project is deployed over the Web using Flask Rest API. We make use of HTML and CSS to built the front end and Flask API to get our backend ready for the project. 
